@@ -13,6 +13,7 @@
 	<name>Audit-Checklist</name>
 	<description>Audit Checklist Microservice</description>
 	<properties>
+		
 		<java.version>1.8</java.version>
 		<spring-cloud.version>2020.0.1</spring-cloud.version>
 	</properties>
