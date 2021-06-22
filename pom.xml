@@ -14,15 +14,14 @@
 	<name>Audit-Checklist</name>
 	<description>Audit Checklist Microservice</description>
 	<properties>
-		
 		<java.version>1.8</java.version>
 		<spring-cloud.version>2020.0.1</spring-cloud.version>
 	</properties>
 	<dependencies>
+
 	 <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-engine</artifactId>
-        <version>5.4.0</version>
         <scope>test</scope>
     </dependency>
 		<dependency>
@@ -71,6 +70,12 @@
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>2.9.1</version>
 		</dependency>
+			<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <scope>test</scope>
+</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
